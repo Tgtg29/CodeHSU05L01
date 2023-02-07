@@ -93,6 +93,10 @@ public class Rectangle { //make public for CS A
 
 
     //toString method
+    public String toString(){
+        DecimalFormat df = new DecimalFormat("#,##");
+        return "The height of the rectangle is " + df.format(height) + " and the width is " + df.format(width) + ".";
+    }
 
 
 }
