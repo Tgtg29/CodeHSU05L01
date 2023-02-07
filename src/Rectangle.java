@@ -91,6 +91,19 @@ public class Rectangle { //make public for CS A
         perimeter = 2*height + 2*width;
     }
 
+    //reset rectangle method
+
+    /**
+     * @description resets rectangle to a unit rectangle
+     *
+     * @param rect rectangle object you want to reset
+     */
+    public void resetRectangle(Rectangle rect){
+        rect.width = 1;
+        rect.height = 1;
+    }
+    // does not need an object param here but objects still can be used as a param
+
 
     //toString method
     public String toString(){
